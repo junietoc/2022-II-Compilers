@@ -1,0 +1,4 @@
+STRING -> "[a-z]+"
+NUMBER -> [0-9]+
+key -> STRING
+value -> NUMBER|STRING
