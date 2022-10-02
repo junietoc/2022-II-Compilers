@@ -1,0 +1,11 @@
+BUCLE1 -> for
+BUCLE2 -> FOR 
+loop -> BUCLE1|BUCLE2
+LETRA -> [a-z]
+NUMERO -> [0-9]
+CHAR -> LETRA|NUMERO
+B -> CHAR*
+identifier -> LETRAB
+digito -> NUMERO+
+equal -> =
+space -> \s
